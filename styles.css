@@ -9,9 +9,21 @@ h1{
     color: tomato;
 }
 .banner{
-    display: flex;
-    
+     display: flex;
+     justify-content: space-around;
+     font-size: 35px;
+      
+     
+ }
+ .important-food{
+    width: 90%;
+    background-repeat: no-repeat;
 }
+.important-food img{
+    width: 2000px;
+    height: 600px;
+}
+ 
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -29,6 +41,7 @@ h1{
     font-weight: 700;
     padding: 10px 40px;
     border-radius:360px;
+    
 }
 .my-recipies{
     text-align: center;
@@ -60,6 +73,16 @@ h1{
     text-align: justify;
     background-color: #fff;
 }
+.rimon{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 5px;
+
+}
 .container{
     text-align: center;
     color:honeydew;
@@ -73,7 +96,7 @@ h1{
     height: 500%;
     color: #f0f9ff;
     background-color: #282d32;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 10px 10px 10px black;
     border: 2px solid gray;
     border-radius: 10px
     
